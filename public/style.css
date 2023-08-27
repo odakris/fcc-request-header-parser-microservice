@@ -1,32 +1,73 @@
+/****** Main Styling ******/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	color: #222;
-	background-color: #FaFaFa;
-	text-align: center;
-	line-height: 1.4em;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: linen;
+  background-color: #003c58;
+  text-align: center;
+  line-height: 1.4em;
+  position: relative;
+  min-height: 100%;
+}
+
+.titles {
+  max-width: 1000px;
 }
 
 .container {
-	padding: 0;
-	margin-top: 40px;
+  max-width: 800px;
 }
 
-h3 {
-  margin-top: 30px;
+h1,
+h2 {
+  margin: 30px;
+}
+
+hr {
+  margin: 25px 0 5px 0;
 }
 
 .footer {
-	margin-top: 40px;
+  margin-top: 15px;
 }
 
 code {
+  text-align: left;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10px;
   font-family: monospace;
-  padding: 2px;
-  color: black;
-  background-color: #fff;
+  font-size: 14px;
+  color: #003c58;
+  background-color: linen;
+  width: 95%;
+  white-space: break-spaces;
+  word-break: break-all;
 }
 
 a {
-	color: #2574A9;
+  color: linen;
+}
+
+@media screen and (max-width: 1200px), screen and (max-height: 600px) {
+  body {
+    transform: scale(0.8);
+  }
 }
