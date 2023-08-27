@@ -14,7 +14,7 @@ This is the boilerplate for the Request Header Parser Microservice project. Inst
 This project is part of the **[freeCodeCamp](https://www.freecodecamp.org/learn/back-end-development-and-apis)** Back End Development and APIs projects certification.
 
 <p align="center">
-  <img src="./images/requestheaderparser.png">
+  <img src="./public/images/requestheaderparser.png">
 </p>
 
 ## Instructions
